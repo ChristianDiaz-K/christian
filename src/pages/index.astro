@@ -1,8 +1,17 @@
 ---
 import Layout from '../components/Layout.astro'
+import bgImage from '../images/code.jpg'
 ---
 
 <Layout pageTitle="Inicio" pageDescription="Este es el portafolio web de Christian Diaz">
 	<h1>Bienvenido a mi portafolio</h1>
-	<p>este es el portafolio de christian</p>
+	<p>este es el portafolio de Christian</p>
+	<div class="bg-sky-500 p-4 mb-3">
+
+		<img width="60" src="https://images.pexels.com/photos/6280718/pexels-photo-6280718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+
+		<img  width="600" src={bgImage} alt="">
+		
+	</div>
+	
 </Layout>
