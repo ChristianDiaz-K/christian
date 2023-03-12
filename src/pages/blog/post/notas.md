@@ -1,5 +1,5 @@
 ---
-layout: ../../../components/Layout.astro
+layout: ../../../layouts/Layout.astro
 ---
 
 # Mi primera publicación 
