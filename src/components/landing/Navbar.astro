@@ -1,0 +1,10 @@
+<nav class="flex sm:justify-center space-x-4">
+    {[
+      ['Inicio', '/'],
+      ['Publicaciones', '/blog/'],
+      ['Donar', 'https://www.flow.cl/btn.php?token=gnweng3'],
+      ['One piece', '/onepiece'],
+    ].map(([title, url]) => (
+      <a href={url} class="rounded-lg px-3 py-2 text-slate-100 font-medium hover:bg-slate-100 hover:text-slate-900">{title}</a>
+    ))}
+  </nav>

@@ -1,6 +1,7 @@
 ---
 import "../styles/Layout.css";
 import Footer from "../components/landing/Footer.astro";
+import Navbar from "../components/landing/Navbar.astro";
 
 interface Props {
     pageTitle?: string
@@ -16,7 +17,8 @@ const {pageTitle, pageDescription} = Astro.props
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christian Díaz | {pageTitle}</title>
 </head>
-<body>   
+<body> 
+    <Navbar/>  
     <slot/>
     <Footer />
 </body>
