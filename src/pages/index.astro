@@ -6,12 +6,11 @@ import bgImage from '../images/code.jpg'
 <Layout pageTitle="Inicio" pageDescription="Este es el portafolio web de Christian Diaz">
 	<h1>Bienvenido a mi portafolio</h1>
 	<p>este es el portafolio de Christian</p>
-	<div class="bg-sky-500 p-4 mb-3">
+	<div class="bg-sky-500 p-4 mb-3 flex flex-row">
 
-		<img width="600" src="https://images.pexels.com/photos/6280718/pexels-photo-6280718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-
-		<img  width="600" src={bgImage} alt="">
+		<img class="w-64 h-64 mx-1 " src="https://images.pexels.com/photos/6280718/pexels-photo-6280718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+		<img class="w-64 h-64 mx-1" src={bgImage} alt="">
 		
 	</div>
-	<a href="/blog/">Publicaciones</a>
+	<a class="underline" href="/blog/">Publicaciones</a>
 </Layout>
