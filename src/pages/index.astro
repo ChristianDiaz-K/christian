@@ -5,28 +5,27 @@ import bgImage from '../images/code.jpg'
 
 <Layout pageTitle="Inicio" pageDescription="Este es el portafolio web de Christian Diaz">
 
-	<h1>Bienvenido a mi portafolio</h1>
-	<p>este es el portafolio de Christian</p>
-	<div class="bg-sky-500 p-4 mb-3 flex flex-row">
+	<div class="p-4 mb-3 flex justify-center">
+		Bienvenido a mi portafolio
+		<br>
+		Este es el portafolio de Christian
+	</div>
+
+	
+	<div class="p-4 mb-3 flex flex-row place-content-center">
 
 		<img class="w-64 h-64 mx-1 " src="https://images.pexels.com/photos/6280718/pexels-photo-6280718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
 		<img class="w-64 h-64 mx-1" src={bgImage} alt="">
 		
 	</div>
 	<br>
-	<div class="bg-sky-500 p-4 mb-3 flex flex-col items-center md:flex-row md:justify-center">
 
-		<img class="w-64 h-auto max-w-md md:mx-2" src="https://images.pexels.com/photos/6280718/pexels-photo-6280718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-		<img class="w-64 h-auto max-w-md md:mx-2" src={bgImage} alt="">
-		
-	</div>
-
-	<a class="underline" href="/blog/">Publicaciones</a>
-
-	<br>
-	<div class="p-4 bg-gray-100">
+	<div class=" p-4 mb-3 flex flex-row place-content-center">
 		<a href="https://www.flow.cl/btn.php?token=gnweng3" target="_blank">
 		  <button class="px-4 py-2 font-semibold text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 ease-in-out">DONACIONES</button>
+		</a>
+		<a href="/blog/" target="_blank">
+			<button class="px-4 py-2 font-semibold text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none focus:ring shadow-lg hover:shadow-none transition-all duration-300 ease-in-out">Publicaciones</button>
 		</a>
 	</div>
 
