@@ -18,9 +18,13 @@ const {pageTitle, pageDescription} = Astro.props
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christian Díaz | {pageTitle}</title>
 </head>
-<body> 
-    <Navbar/>  
-    <slot/>
-    <Footer />
+<body>     
+    <div class="relative h-screen">
+        <Navbar class="py-4"></Navbar>
+        <main class="pt-4 pb-16">
+          <slot></slot>
+        </main>
+        <Footer class="absolute bottom-0 left-0 w-fulpy-4"></Footer>
+    </div>
 </body>
 </html>
